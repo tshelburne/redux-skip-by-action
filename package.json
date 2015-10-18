@@ -1,0 +1,41 @@
+{
+  "name": "redux-skip-by-action",
+  "version": "0.1.0",
+  "description": "redux store enhancer that allows skipping subscriber notifications by action metadata",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "",
+    "clean": "rm -rf lib",
+    "build": "node_modules/.bin/babel src --out-dir lib",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tshelburne/redux-skip-by-action"
+  },
+  "keywords": [
+    "redux",
+    "batched",
+    "action",
+    "skip",
+    "store",
+    "react",
+    "reactjs"
+  ],
+  "author": {
+    "name": "Tim Shelburne",
+    "email": "shelburt02@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tshelburne/redux-skip-by-action/issues"
+  },
+  "homepage": "https://github.com/tshelburne/redux-skip-by-action",
+  "dependencies": {
+    "redux-batched-subscribe": "^0.1.4"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25"
+  }
+}
