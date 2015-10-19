@@ -1,3 +1,5 @@
+_This repository is not considered best practices for Redux - for a more appropriate solution to the problem, see [redux-batched-actions](https://github.com/tshelburne/redux-batched-actions)_
+
 redux-skip-by-action
 ====================
 

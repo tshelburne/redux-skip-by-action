@@ -1,6 +1,6 @@
 {
   "name": "redux-skip-by-action",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "redux store enhancer that allows skipping subscriber notifications by action metadata",
   "main": "lib/index.js",
   "scripts": {
